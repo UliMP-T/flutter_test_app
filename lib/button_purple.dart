@@ -16,8 +16,8 @@ class ButtonPurple extends StatelessWidget {
       },
       child: Container(
         margin: EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
-        height: 50.0,
-        width: 180.0,
+        height: 45.0,
+        width: 160.0,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30.0),
             gradient: LinearGradient(
