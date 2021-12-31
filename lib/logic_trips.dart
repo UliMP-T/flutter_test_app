@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home_trips.dart';
 import 'search_trips.dart';
-import 'profile_trips.dart';
+import 'profile/profile.dart';
 
 class LogicTrips extends StatefulWidget {
   @override
@@ -14,11 +14,7 @@ class LogicTrips extends StatefulWidget {
 class _LogicTrips extends State<LogicTrips> {
   int indexTap = 0;
 
-  final List<Widget> widgetsChildren = [
-    HomeTrips(),
-    SearchTrips(),
-    ProfileTrips()
-  ];
+  final List<Widget> widgetsChildren = [HomeTrips(), SearchTrips(), Profile()];
 
   void onTapTapped(int index) {
     setState(() {

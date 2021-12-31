@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/profile/profile.dart';
 import 'home_trips.dart';
 import '../search_trips.dart';
-import '../profile_trips.dart';
+import 'profile/profile.dart';
 
 class CupertinoNavBar extends StatelessWidget {
   @override
@@ -34,7 +35,7 @@ class CupertinoNavBar extends StatelessWidget {
               );
             case 2:
               return CupertinoTabView(
-                builder: (BuildContext context) => ProfileTrips(),
+                builder: (BuildContext context) => Profile(),
               );
             default:
               return CupertinoTabView(
