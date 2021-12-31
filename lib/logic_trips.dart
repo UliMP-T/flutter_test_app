@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home/header_home/home_trips.dart';
+import 'home_trips.dart';
 import 'search_trips.dart';
 import 'profile_trips.dart';
 
